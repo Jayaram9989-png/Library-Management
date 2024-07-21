@@ -1,0 +1,49 @@
+.body{
+    background-image:url('../../Images/formbgimg.avif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    position: fixed;
+    top: 10vh;
+}
+.form{
+    height: 60vh;
+    width: 50%;
+    background: linear-gradient(to top right , pink 50%,white 50%);
+    margin:20vh auto;
+    box-shadow: inset 0px 0px 30px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input{
+    display: block;
+    border: none;
+    box-shadow: inset 0px 0px 30px rgb(0, 0, 0);
+    border-radius: 90px;
+    width: 450px;
+    height: 6vh;
+    border: solid red 0px;
+    border-bottom: solid rgb(0, 0, 0) 1px;
+    background: rgba(0, 0, 0, 0.212);
+    margin: 10px auto;
+    text-align: center;
+}
+.form button{
+    width: 15%;
+    height: 6vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 0px 20px black;
+    color: white;
+    background: linear-gradient(red , black);
+}
+.form .input{
+    margin: 10px auto;
+}

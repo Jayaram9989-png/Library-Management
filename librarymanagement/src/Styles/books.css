@@ -1,0 +1,39 @@
+.books{
+    height: 90vh;
+    border: none;
+    /* background: red; */
+}
+.books .card{
+    border:  solid red 1px;
+    height: 40vh;
+    width: 50vh;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to top right , rgba(118, 25, 4, 0.761) 50%,white 50%);
+}
+.books .left{
+    height: 40vh;
+    width: 50%;
+    /* background: green;
+     */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.books .right{
+    height: 40vh;
+    width: 60%;
+    /* background: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.books .main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.books img{
+    height: 200px;
+}

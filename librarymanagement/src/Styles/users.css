@@ -1,0 +1,52 @@
+.users{
+    /* height: 90vh; */
+    border: none;
+    background: radial-gradient(red,black);
+}
+.users .card{
+    border:  solid red 0px;
+    height: 40vh;
+    width: 60vh;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to top right , rgba(118, 25, 4, 0.761) 50%,white 50%);
+    border-radius: 0px 40px;
+    box-shadow: inset 0px 0px 30px black;
+}
+.users .left{
+    height: 40vh;
+    width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.users .right{
+    height: 40vh;
+    width: 60%;
+    /* background: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+} 
+.users .main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.users img{
+    height: 200px;
+    width: 200px;
+}
+.users button{
+    height: 20px;
+    width: 100px;
+    background: radial-gradient(red,black);
+    color: white;
+}
+.users .title{
+    font-size: 30px;
+    
+}

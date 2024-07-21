@@ -1,0 +1,114 @@
+.container .card{
+    height: 80vh;
+    width: 70%;
+    /* border: solid black 1px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5vh auto;
+    overflow-y: auto;
+    box-shadow: inset 0px 0px 30px rgb(46, 2, 2);
+    background: linear-gradient(to top right, pink 50% , white 50%);
+    border-radius: 10px;
+}
+.container .left{
+    height: 70vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container img{
+    height: 300px;
+    width: 60%;
+    box-shadow: 0px 0px 40px rgb(0, 0, 0);
+    display: flex;
+    margin: auto;
+}
+.container .title{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container .right{
+    
+    /* height: 70vh; */
+    width: 60%;
+    /* background: lightblue; */
+    /*   */
+}
+.container .right-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    width:100%;
+    border: none;
+    background: rgba(0, 0, 0, 0.579);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:sans-serif ;
+    box-shadow: inset 0px 0px 20px rgb(0, 0, 0);
+    border-radius: 8px;
+}
+.container .mainbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10vh;
+}
+.container .box{
+    border: none;
+    height: 15vh;
+    width: 15vh;
+    background: linear-gradient(red , black);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: inset 0px 0px 20px black;
+    border-radius: 10px;
+}
+.container .a{
+    margin-top: 10px;
+    color: black;
+}
+.container .b{
+    color: white;
+    margin-top: 40px;
+}
+.container .backarrow{
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container .backarrow button{
+    border: none;
+    background: red;
+    background: none;
+    height: 3vh;
+    width: 7vh;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container .backarrow button:hover{
+    cursor: pointer;
+    color: red;
+}

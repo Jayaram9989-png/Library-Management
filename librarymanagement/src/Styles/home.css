@@ -1,0 +1,47 @@
+.homepage{
+    height: 90vh;
+    background: radial-gradient(circle at left , red 30% , black);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.homepage .content{
+    border: none;
+    height: 60vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(240, 128, 128, 0.286);
+    margin:auto;
+    padding: 10px;
+    box-shadow: inset 0px 0px 30px black;
+    border-radius: 10px;
+}
+.homepage .text{
+    text-align: center;
+    width: 40%;
+}
+.homepage img{
+    height: 50vh;
+    border-radius: 30px;
+    box-shadow:0px 0px 20px rgb(250, 249, 249);
+}
+.homepage .header{
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.homepage .header::first-letter{
+    color: blue;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.homepage .about{
+    margin: 10px;
+    font-size: 23px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
